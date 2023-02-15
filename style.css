@@ -23,7 +23,7 @@ ul {
 ul li {
   display: inline-block;
   list-style: none;
-  margin: 0 25px;
+  margin: 0 10px;
 }
 
 ul li a {
@@ -35,9 +35,9 @@ ul li a {
 
 ul li a::after {
   content: "";
-  width: 0;
+  width: 30;
   height: 10px;
-  background: #f14a60;
+  background: blue;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -46,7 +46,7 @@ ul li a::after {
 }
 
 ul li a:hover::after {
-  width: 100%;
+  width: 70%;
 }
 
 .navbar-icons img {
@@ -61,7 +61,7 @@ ul li a:hover::after {
 
 .banner {
   display: flex;
-  margin-top: 30px;
+  margin-top: ''30px;
 }
 
 .left-column,
@@ -82,7 +82,7 @@ ul li a:hover::after {
 }
 
 .search-box img {
-  height: 40px;
+  height: 20px;
   width: 25px;
   cursor: pointer;
 }
@@ -104,7 +104,7 @@ ul li a:hover::after {
 }
 
 span {
-  color: #f14a60;
+  color: blue;
 }
 
 .left-column p {
@@ -117,15 +117,15 @@ span {
   padding: 7px 30px;
   margin-right: 30px;
   outline: none;
-  border: 1px solid #fb7381;
+  border: 1px solid blue;
   border-radius: 20px;
   cursor: pointer;
-  color: #fb7381;
-  background-color: transparent;
+  color: blue;
+  background-color: blue;
 }
 
 .btn .primary-btn {
-  background: linear-gradient(#fb7381, #f14a60);
+  background: linear-gradient(blue, black);
   box-shadow: 0 2px 15px rgba(248, 38, 103, 0.26);
   color: #fff;
 }
